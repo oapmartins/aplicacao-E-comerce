@@ -1,5 +1,7 @@
-import 'package:e_commerce_framework/size_config.dart';
+import 'package:e_commerce_framework/components/default_button.dart';
 import 'package:flutter/material.dart';
+
+import 'package:e_commerce_framework/size_config.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -45,34 +47,11 @@ class SplashScreen extends StatelessWidget {
                   child: Column(
                     children: <Widget>[
                       const Spacer(flex: 3),
-                      SizedBox(
-                        width: double.infinity,
-                        height: getProportionateScreenHeight(60),
-                        child: ElevatedButton(
-                          onPressed: () {},
-                          child: Text(
-                            'Continuar',
-                            style: TextStyle(
-                              fontSize: getProportionateScreenWidth(18),
-                              color: Colors.white,
-                            ),
-                          ),
-                          style: ButtonStyle(
-                            backgroundColor:
-                                MaterialStateProperty.resolveWith<Color>(
-                              (Set<MaterialState> states) {
-                                return Colors
-                                    .purple; // Use the component's default.
-                              },
-                            ),
-                            shape: MaterialStateProperty.all<
-                                RoundedRectangleBorder>(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(15.0),
-                              ),
-                            ),
-                          ),
-                        ),
+                      DefaultButton(
+                        text: 'Continuar',
+                        onPressed: () {
+                          print('teste');
+                        },
                       ),
                       const Spacer(),
                     ],
