@@ -50,7 +50,7 @@ class SplashScreen extends StatelessWidget {
                       DefaultButton(
                         text: 'Continuar',
                         onPressed: () {
-                          print('teste');
+                          Navigator.pushNamed(context, '/login');
                         },
                       ),
                       const Spacer(),

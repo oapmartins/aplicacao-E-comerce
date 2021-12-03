@@ -15,7 +15,7 @@ class DefaultButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
-      height: getProportionateScreenHeight(60),
+      height: getProportionateScreenHeight(70),
       child: ElevatedButton(
         onPressed: onPressed,
         child: Text(
@@ -33,7 +33,7 @@ class DefaultButton extends StatelessWidget {
           ),
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
             RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(15.0),
+              borderRadius: BorderRadius.circular(12.0),
             ),
           ),
         ),
