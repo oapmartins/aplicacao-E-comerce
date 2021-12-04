@@ -1,8 +1,18 @@
+import 'package:e_commerce_framework/size_config.dart';
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
 
 class CardProdutos extends StatelessWidget {
-  const CardProdutos({Key? key}) : super(key: key);
+  const CardProdutos({
+    Key? key,
+    required this.title,
+    required this.subTitle,
+    required this.imagem,
+  }) : super(key: key);
+
+  final String title;
+  final String subTitle;
+  final String imagem;
 
   @override
   Widget build(BuildContext context) {
@@ -22,18 +32,23 @@ class CardProdutos extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
                     clipBehavior: Clip.antiAlias,
-                    child: Image.asset('assets/images/ps4_console_blue_1.png'),
+                    child: Image.asset(
+                      imagem,
+                      height: getProportionateScreenHeight(175),
+                      width: getProportionateScreenWidth(150),
+                      fit: BoxFit.fill,
+                    ),
                   ),
                 ),
                 SizedBox(height: 20),
                 Text(
-                  'teste',
+                  title,
                   style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600),
                   overflow: TextOverflow.ellipsis,
                   maxLines: 2,
                 ),
                 Text(
-                  'tste123123123',
+                  subTitle,
                   style: TextStyle(
                     fontSize: 11,
                     fontWeight: FontWeight.w300,

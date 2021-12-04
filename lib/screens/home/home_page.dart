@@ -19,6 +19,8 @@ class _HomePageState extends State<HomePage> {
     MeusPedidos(),
   ];
 
+  List<String> produtosSelecionados = [];
+
   void mudarDeAba(int indice) {
     setState(() {
       _paginaAtual = indice;
@@ -33,17 +35,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      // body: SizedBox(
-      //   width: MediaQuery.of(context).size.width,
-      //   //height: 196,
-      //   child: Stack(
-      //     alignment: Alignment.bottomCenter,
-      //     children: [
-      //       const InputFilter(textoInput: 'Procurar produtos'),
-      //     ],
-      //   ),
-      // ),
+      appBar: AppBar(
+        backgroundColor: Colors.orange,
+        title: Text(_paginaAtual == 0 ? 'Produtos' : 'Meus Pedidos'),
+      ),
+      backgroundColor: Colors.white,
       body: _telas[_paginaAtual],
       bottomNavigationBar: BottomNavigationBar(
         onTap: mudarDeAba,
