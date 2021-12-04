@@ -81,7 +81,7 @@ class _ProdutosInicioState extends State<ProdutosInicio> {
             ),
           ),
           SizedBox(
-            height: getProportionateScreenHeight(300),
+            height: getProportionateScreenHeight(250),
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: listaProdutos.length,
@@ -105,7 +105,7 @@ class _ProdutosInicioState extends State<ProdutosInicio> {
             ),
           ),
           SizedBox(
-            height: getProportionateScreenHeight(300),
+            height: getProportionateScreenHeight(250),
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: listaProdutos2.length,

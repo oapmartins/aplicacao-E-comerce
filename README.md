@@ -9,10 +9,10 @@
 <h2>📱 Preview</h2>
 
    <p align="center">
-      <img src="assets/images/gihub/login.jpeg" width="190" alt="Tela de Login">
-      <img src=".github/login.png" width="190" alt="Tela principal de Filmes">
-      <img src=".github/print3.png" width="190" alt="Favoritos">
-      <img src=".github/print4.png" width="190" alt="Filmes mais assistidos">
+      <img src="./assets/images/github/splash.jpeg" width="190" alt="Splash Page">
+      <img src="./assets/images/github/login.jpeg" width="190" alt="Tela de Login">
+      <img src="./assets/images/github/produtos.jpeg" width="190" alt="Produto">
+      <img src="./assets/images/github/carrinho.jpeg" width="190" alt="Carrinho">
    </p>
 
 ---

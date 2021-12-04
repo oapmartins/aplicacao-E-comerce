@@ -34,7 +34,7 @@ class CardProdutos extends StatelessWidget {
                     clipBehavior: Clip.antiAlias,
                     child: Image.asset(
                       imagem,
-                      height: getProportionateScreenHeight(175),
+                      height: getProportionateScreenHeight(150),
                       width: getProportionateScreenWidth(150),
                       fit: BoxFit.fill,
                     ),

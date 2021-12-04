@@ -33,7 +33,7 @@ class _MeusPedidosState extends State<MeusPedidos> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           SizedBox(
-            height: getProportionateScreenHeight(300),
+            height: getProportionateScreenHeight(250),
             child: ListView.builder(
               scrollDirection: Axis.horizontal,
               itemCount: listaProdutos.length,
