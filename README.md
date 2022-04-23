@@ -10,7 +10,6 @@
 <h2>📱 Preview</h2>
 
    <p align="center">
-   
       <img src="./aplicacao_e-comerce_flutter/assets/images/github/splash.jpeg" width="190" alt="Splash Page">
       <img src="./aplicacao_e-comerce_flutter/assets/images/github/login.jpeg" width="190" alt="Tela de Login">
       <img src="./aplicacao_e-comerce_flutter/assets/images/github/produtos.jpeg" width="190" alt="Produto">
