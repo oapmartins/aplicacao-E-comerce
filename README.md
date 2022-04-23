@@ -2,7 +2,7 @@
 <h2>📖 Sobre</h2>
 
 
-<p>Neste repositório foi implementado o mesmo exemplo de aplicação, utilizando duas tecnologias: Flutter e React Native. A aplicação que tem o foco de ser um e-commerce. Contendo um login, uma página de seleção de produtos, um carrinho de compras, e uma página para gerarmos um PDF.<br>
+<p>Neste repositório foi implementado o mesmo exemplo de aplicação, utilizando duas tecnologias: Flutter e React Native. A ~~aplicação~~c que tem o foco de ser um e-commerce. Contendo um login, uma página de seleção de produtos, um carrinho de compras, e uma página para gerarmos um PDF.<br>
 </p>
 
 ---
@@ -10,10 +10,11 @@
 <h2>📱 Preview</h2>
 
    <p align="center">
-      <img src="./assets/images/github/splash.jpeg" width="190" alt="Splash Page">
-      <img src="./assets/images/github/login.jpeg" width="190" alt="Tela de Login">
-      <img src="./assets/images/github/produtos.jpeg" width="190" alt="Produto">
-      <img src="./assets/images/github/carrinho.jpeg" width="190" alt="Carrinho">
+   
+      <img src="./aplicacao_e-comerce_flutter/assets/images/github/splash.jpeg" width="190" alt="Splash Page">
+      <img src="./aplicacao_e-comerce_flutter/assets/images/github/login.jpeg" width="190" alt="Tela de Login">
+      <img src="./aplicacao_e-comerce_flutter/assets/images/github/produtos.jpeg" width="190" alt="Produto">
+      <img src="./aplicacao_e-comerce_flutter/assets/images/github/carrinho.jpeg" width="190" alt="Carrinho">
    </p>
 
 ---
