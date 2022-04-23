@@ -2,7 +2,7 @@
 <h2>📖 Sobre</h2>
 
 
-<p>Neste repositório foi implementado o mesmo exemplo de aplicação, utilizando duas tecnologias: Flutter e React Native. A ~~aplicação~~c que tem o foco de ser um e-commerce. Contendo um login, uma página de seleção de produtos, um carrinho de compras, e uma página para gerarmos um PDF.<br>
+<p>Neste repositório foi implementado o mesmo exemplo de aplicação, utilizando duas tecnologias: Flutter e React Native. A aplicação que tem o foco de ser um e-commerce. Contendo um login, uma página de seleção de produtos, um carrinho de compras, e uma página para gerarmos um PDF.<br>
 </p>
 
 ---
